@@ -7,6 +7,12 @@ const Header = () => {
 				<span className='text-3xl text-white font-bold tracking-tight'>
 					<Link to='/'>MernHolidays.com</Link>
 				</span>
+				<Link
+					to='/sign-in'
+					className='flex bg-white items-center text-blue-600 px-3 font-bold hover:bg-gray-100'
+				>
+					Sign In
+				</Link>
 			</div>
 		</div>
 	);
